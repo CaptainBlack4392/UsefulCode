@@ -25,7 +25,6 @@ void outputMatrix(int** a) {
 }
 
 int main() {
-
     //I suppose you know, that c++ is so fast... Let's do it FASTER
     ios_base::sync_with_stdio(false);
     cin.tie(0);
@@ -64,6 +63,7 @@ int main() {
         cout << firstArray[i] << " ";
     }
     cout << endl;
+    
     char secondArray[10];
     for (int i = 0; i < 10; i++) {
         secondArray[i] = 'o' - i;
